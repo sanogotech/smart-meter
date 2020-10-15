@@ -4,6 +4,15 @@ Smart Energy Monitoring System
 ![Smart Meter Solution and Addressed Problems](images/poster.png)
 Power consumers (users) cannot easily examine their consumption. It is very hard to manage their usage even when getting red bills with reminders.
 
+## Build & Run
+
+- *>mvn clean package* : to build
+- *>docker-compose up* --build : build docker images and containers and run containers
+- *>docker-compose stop* : stop the dockerized services
+- Each maven module has a Dockerfile.
+
+In docker-compose.yml file:
+
 ## 1. Objective
 
 The aim of the project is to make a green world, which is sustainable for many centuries with energy conservation, and make people’s life easy with managing expenditure for energy consumption.
